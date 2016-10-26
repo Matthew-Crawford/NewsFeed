@@ -1,0 +1,22 @@
+{
+  "name": "news_feed",
+  "version": "1.0.0",
+  "description": "A project to display the current news through rss feeds",
+  "main": "app.js",
+  "scripts": {
+    "test": "mocha"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Matthew-Crawford/NewsFeed.git"
+  },
+  "keywords": [
+    "News"
+  ],
+  "author": "Matthew Crawford",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Matthew-Crawford/NewsFeed/issues"
+  },
+  "homepage": "https://github.com/Matthew-Crawford/NewsFeed#readme"
+}
