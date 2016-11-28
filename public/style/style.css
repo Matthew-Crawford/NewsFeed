@@ -1,0 +1,35 @@
+body { 
+  padding-top: 70px; 
+}
+
+.title {
+  margin-left: 10%;
+  margin-right: 10%;
+}
+
+.image {
+  width: 60%;
+  height: auto;
+  display:block;
+  margin:auto;
+}
+
+.description {
+  margin-left: 10%;
+  margin-right: 10%;
+}
+
+.url {
+  margin-left: 10%;
+  margin-right: 10%;
+}
+
+.favorite {
+  margin-left: 10%;
+  margin-right: 10%;
+}
+
+.favorite-label {
+  margin-left: 10%;
+  margin-right: 1%;
+}

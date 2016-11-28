@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+
+<html>
+  <head>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+    <link rel="stylesheet" href="public/style/style.css">
+  </head>
+  <body>
+     <nav class="navbar navbar-default navbar-fixed-top">
+      <div class="container">
+        <div class="navbar-header">
+          <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
+            <span class="sr-only">Toggle navigation</span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+          </button>
+          <a class="navbar-brand" href="#">NewsFeed</a>
+        </div>
+        <div id="navbar" class="navbar-collapse collapse">
+          <ul class="nav navbar-nav">
+            <li><a href="#us" onclick="loadUSNews()">US News</a></li>
+            <li><a href="#world" onclick="loadWorldNews()">World News</a></li>
+            <li><a href="#sports">Sports News</a></li>
+            <li><a href="#weather">Weather News</a></li>
+            <li><a href="#tech" onclick="loadTechnologyNews()">Tech News</a></li>
+            <li><a href="#favorites" onclick="loadFavorites()">Favorites</a></li>
+          </ul>
+          <ul class="nav navbar-nav navbar-right">
+          </ul>
+        </div><!--/.nav-collapse -->
+      </div>
+    </nav>    
+    <div class="content"></div>
+  </body>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/underscore.js/1.8.3/underscore-min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+  <script src="public/javascript/oo-index.js"></script>
+</html>
