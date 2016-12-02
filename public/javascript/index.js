@@ -217,7 +217,9 @@ function generateHTML(articles) {
 
 function USArticleObj(rawArticle) {
   this.title = rawArticle.title;
-  this.imageURL = rawArticle.multimedia[4].url;
+  if(!_.isEmpty(rawArticle.multimedia)) {
+    this.imageURL = rawArticle.multimedia[4].url
+  }
   this.description = rawArticle.description;
   this.url = rawArticle.url;
   this.favorite = false;
@@ -256,17 +258,18 @@ function createArticles(articles) {
 
 function loadUSNews() {
   app.usNews.loadNews();
-  reload();
 }
 
 function loadWorldNews() {
   app.worldNews.loadNews();
-  reload();
+}
+
+function loadSportsNews() {
+  app.sportsNews.loadNews();
 }
 
 function loadTechnologyNews() {
   app.technologyNews.loadNews();
-  reload();
 }
 
 
